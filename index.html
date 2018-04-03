@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Transantiago API</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/style.css">
+
+ <link rel="shortcut icon" href="assets/img/favicon.png" />
+</head>
+<body>
+
+
+  <div class="container encabezado">
+   <ul class="navbar-nav ml-auto">
+     <li class="nav-item"><button id="portafolio" type="button" class="btn btn-secondary">Portafolio</button></li>
+   </ul>
+  </div>
+
+
+  <div id="consultar_bip">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-pull-3 col-lg-6 col-lg-push-3 ">
+        <div class="card">
+
+           <div class="card-body_new">
+            <h5 class="card-title_new">Consulte su Bip </h5>
+            <div class="row">
+              <div class="col-lg-4 ">
+                <div class="form-group">
+             <input type="text"  id="codigo">
+              </div>
+            </div>
+                <div class="col-lg-8 ">
+                  <div class="form-group">
+                 <button type="button" class="btn btn-primary" id="micro">Bip</button>
+              </div>
+            </div>
+            </div>
+          </div>
+
+
+          <div id="mostrar_saldo" class="card-body">
+            <div class="row">
+              <div class="col-lg-4 ">
+                <div class="form-group">
+                <h5 class="card-title">Saldo</h5>
+              </div>
+             </div>
+             <div class="col-lg-4 ">
+                <div class="form-group">
+             <input type="text"  id="saldo">
+              </div>
+             </div>
+                <div class="col-lg-4 ">
+                  <div class="form-group">
+              </div>
+            </div>
+            </div>
+          </div>
+
+
+           <div id="mostrar_fecha" class="card-body">
+            <div class="row">
+              <div class="col-lg-4 ">
+                <div class="form-group">
+                <h5 class="card-title">Fecha Ultimo Uso</h5>
+              </div>
+             </div>
+             <div class="col-lg-4 ">
+                <div class="form-group">
+                <input type="text"  id="fecha">
+              </div>
+             </div>
+                <div class="col-lg-4 ">
+                  <div class="form-group">
+              </div>
+            </div>
+            </div>
+          </div>
+
+          <div id="mostrar_saldo_micro" class="card-body">
+            <div class="row">
+              <div class="col-lg-4 ">
+                <div class="form-group">
+                <h5 class="card-title">Saldo Micro</h5>
+              </div>
+             </div>
+             <div class="col-lg-4 ">
+                <div class="form-group">
+                <input type="text"  id="saldo_micro">
+              </div>
+             </div>
+                <div class="col-lg-4 ">
+                  <div class="form-group">
+              </div>
+            </div>
+            </div>
+          </div>
+
+          <div id="mostrar_saldo_metro" class="card-body">
+            <div class="row">
+              <div class="col-lg-4 ">
+                <div class="form-group">
+                <h5 class="card-title">Saldo Metro</h5>
+              </div>
+             </div>
+             <div class="col-lg-4 ">
+                <div class="form-group">
+                <input type="text"  id="saldo_metro">
+              </div>
+             </div>
+                <div class="col-lg-4 ">
+                  <div class="form-group">
+              </div>
+            </div>
+            </div>
+          </div>
+
+          <div id="mostrar_saldo_microp" class="card-body">
+            <div class="row">
+              <div class="col-lg-4 ">
+                <div class="form-group">
+                <h5 class="card-title">Saldo Micro Hora Punta</h5>
+              </div>
+             </div>
+             <div class="col-lg-4 ">
+                <div class="form-group">
+                <input type="text"  id="saldo_final_micro">
+              </div>
+             </div>
+                <div class="col-lg-4 ">
+                  <div class="form-group">
+              </div>
+            </div>
+            </div>
+          </div>
+
+           <div id="mostrar_saldo_metrop" class="card-body">
+            <div class="row">
+              <div class="col-lg-4 ">
+                <div class="form-group">
+                <h5 class="card-title">Saldo Metro Hora Punta</h5>
+              </div>
+             </div>
+             <div class="col-lg-4 ">
+                <div class="form-group">
+                <input type="text"  id="saldo_final_metro">
+              </div>
+             </div>
+                <div class="col-lg-4 ">
+                  <div class="form-group">
+              </div>
+            </div>
+            </div>
+          </div>
+
+
+
+          
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
