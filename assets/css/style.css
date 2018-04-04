@@ -60,6 +60,11 @@ body{
 }
 
 
+.boton{
+  padding-top: 30px;
+ list-style:none;
+}
+
 .card-body{
     display: none;
 }
